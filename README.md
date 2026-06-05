@@ -48,6 +48,7 @@ http://localhost:8080
   README.md
   ITOP_AI_VISUAL_SYSTEM.md
   assets/
+    logo-itop.svg
     image-prompts.json
     svg/
       hero-itop-factory.svg

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-labelledby="title desc">
+  <title id="title">I-TOP Therm Industry Co.</title>
+  <desc id="desc">I-TOP Therm Industry Co. logo in deep green, orange gold, and lime green.</desc>
+  <defs>
+    <style>
+      .green { fill: #0f3b20; }
+      .orange { fill: #f0a21a; }
+      .lime { fill: #b8d322; }
+      .word { font-family: Arial, Helvetica, sans-serif; font-weight: 900; letter-spacing: -4px; }
+      .en { font-family: Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 7px; }
+      .ar { font-family: "IBM Plex Sans Arabic", Arial, sans-serif; font-weight: 800; }
+    </style>
+  </defs>
+
+  <g transform="translate(0 8)">
+    <rect class="green" x="104" y="57" width="36" height="34" rx="4"/>
+    <circle class="orange" cx="166" cy="73" r="30"/>
+
+    <text class="word green" x="110" y="184" font-size="160">i</text>
+    <text class="word green" x="206" y="184" font-size="160">T</text>
+    <text class="word green" x="422" y="184" font-size="160">P</text>
+
+    <g transform="translate(324 122)">
+      <path class="orange" d="M17.7 -65.1A67.5 67.5 0 0 1 66.9 21.2L30.8 9.8A29.5 29.5 0 0 0 7.7 -28.5Z"/>
+      <path class="lime" d="M-64.5 -21.6A67.5 67.5 0 0 1 -3.5 -67.4L-1.5 -29.4A29.5 29.5 0 0 0 -28.2 -9.5Z"/>
+      <path class="green" d="M60.8 29.4A67.5 67.5 0 0 1 -65.5 16.1L-28.6 7.1A29.5 29.5 0 0 0 26.6 12.9Z"/>
+      <circle cx="0" cy="0" r="28" fill="#000000"/>
+      <rect class="orange" x="-4" y="-92" width="8" height="74" rx="3"/>
+    </g>
+
+    <text class="en green" x="320" y="246" font-size="31" text-anchor="middle">THERM INDUSTRY CO.</text>
+    <text class="ar green" x="320" y="292" font-size="31" direction="rtl" unicode-bidi="bidi-override" text-anchor="middle">الشركة أي توب ثيرم</text>
+  </g>
+</svg>
