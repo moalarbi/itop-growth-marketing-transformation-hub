@@ -6,6 +6,12 @@
 
 افتح `index.html` مباشرة في المتصفح.
 
+## نظام الصور بالذكاء الاصطناعي
+
+تمت إضافة ملف `ITOP_AI_VISUAL_SYSTEM.md` كدليل تشغيل لتوليد صور AI متوافقة مع صور المصنع، الكتالوجات، والشعار الرسمي.
+
+كما يحتوي `assets/image-prompts.json` على مكتبة prompts عملية قابلة للاستخدام للـ hero، المنتجات، RFQ، CRM، LinkedIn، التوزيع، والمشاريع.
+
 اختياريًا يمكن تشغيل خادم محلي:
 
 ```bash
@@ -40,6 +46,7 @@ http://localhost:8080
   styles.css
   script.js
   README.md
+  ITOP_AI_VISUAL_SYSTEM.md
   assets/
     image-prompts.json
     svg/

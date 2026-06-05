@@ -1,10 +1,73 @@
 {
-  "factoryHeroImage": "Premium industrial executive presentation visual, Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, clean technical environment, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "productMarketingImage": "Premium industrial executive presentation visual, Saudi pipe manufacturing factory product display, PP-R UPVC HDPE piping systems, technical datasheets and clean product arrangement, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "rfqDashboardImage": "Premium industrial executive presentation visual, RFQ dashboard for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, clean technical environment, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "linkedinStrategyImage": "Premium industrial executive presentation visual, LinkedIn B2B strategy for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, boardroom screen and technical content panels, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "distributorGrowthImage": "Premium industrial executive presentation visual, distributor growth network for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, regional coverage and retail trade flow, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "projectAcquisitionImage": "Premium industrial executive presentation visual, project acquisition system for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, contractors consultants approvals and BOQ workflow, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "crmDashboardImage": "Premium industrial executive presentation visual, CRM KPI dashboard for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, lead pipeline and executive metrics, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text.",
-  "marketingDepartmentImage": "Premium industrial executive presentation visual, marketing department structure for Saudi pipe manufacturing factory, PP-R UPVC HDPE piping systems, executive team roadmap and growth system, off-white and deep green palette, subtle orange accents, realistic but minimal, no logos, no readable text."
+  "systemName": "I-TOP Therm AI Visual Generation System",
+  "version": "1.0",
+  "brandVisualDNA": {
+    "sourceReferences": [
+      "Real factory photos: production lines, safety workers, packaging, product racks, PP-R fittings, UPVC pipes, HDPE coils.",
+      "Product catalogues: PP-R, UPVC, UPVC/CPVC fittings.",
+      "Official I-TOP logo: deep green wordmark with warm orange/gold circular accent and small lime green accent."
+    ],
+    "palette": {
+      "logoDeepGreen": "#0f3b20",
+      "industrialDeepGreen": "#123c35",
+      "logoOrangeGold": "#f0a21a",
+      "mutedExecutiveOrange": "#c8753e",
+      "logoLimeAccent": "#b8d322",
+      "offWhite": "#f6f1e8",
+      "charcoal": "#1c2421"
+    },
+    "logoRule": "Do not ask AI to recreate the I-TOP logo or write readable brand text. Generate the image with clean space for the official logo to be added later as a real overlay.",
+    "negativePrompt": "No readable text, no logo, no watermark, no fake brand names, no misspelled labels, no generic oil refinery, no construction skyscraper focus, no dirty factory, no unsafe workers, no crowded messy scene, no cartoon style, no illustration, no plastic toy look, no futuristic sci-fi factory, no excessive glow, no unrealistic pipe colors, no random cables, no low-resolution stock photo look."
+  },
+  "masterPrompt": "Premium photorealistic industrial executive visual for a Saudi pipe manufacturing company. Scene based on a real clean pipe factory: long extrusion production lines, organized warehouse racks, safety workers, PP-R green fittings, UPVC white or grey pipes, HDPE black pipes and coils, packaging materials, technical control screens, clean factory floor. Visual identity inspired by the official I-TOP logo: deep green dominant, warm orange or gold accents, very small lime green accent, off-white background, charcoal technical details. Mood: professional, practical, trustworthy, boardroom-ready, B2B industrial marketing. Composition: clean whitespace, balanced framing, high-end presentation quality, realistic lighting, sharp product evidence, no clutter. No readable text, no logos, no watermark, leave clean space for later text and official logo overlay.",
+  "prompts": {
+    "homepageHero": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic hero image for I-TOP Therm executive strategy hub. Scene: clean Saudi pipe manufacturing factory with long extrusion lines, organized UPVC white pipes, PP-R green fittings displayed in foreground, HDPE black coils in background, safety workers operating control screens. Composition: centered executive presentation image, wide 16:9, clean whitespace, balanced factory depth, strong product evidence, clean empty area in the top corner for placing the official I-TOP logo later. Palette: off-white factory floor, deep logo green accents, warm orange or gold accent from the logo, subtle lime accent, charcoal machinery. Mood: credible, modern, practical, boardroom-ready. No readable text, no logos, no watermark, no fake brands, no clutter."
+    },
+    "distributionGrowth": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic B2B distribution growth visual for a Saudi pipe manufacturing company. Scene: organized warehouse and dealer-ready product area, stacked UPVC pipes, PP-R green fittings kits, packaging boxes, delivery preparation, regional supply readiness. Include visual cues of trade distribution: palletized products, dealer kit materials without readable text, organized stock, clean logistics flow. Mood: availability, speed, margin support, professional supply chain. Palette inspired by the I-TOP logo: deep green, warm orange or gold, very small lime accent, off-white, charcoal. No readable text, no logos, no watermark, no fake brands."
+    },
+    "projectAcquisition": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic project acquisition visual for a Saudi pipe manufacturing company. Scene: contractor and MEP engineer reviewing technical pipe samples and approval documents in a clean factory meeting area, production line visible in background, UPVC and HDPE samples on table. Show trust elements: technical documents, sample pipes, organized folders, factory proof, engineering discussion. Leave clean area for official logo overlay. No readable text on documents, no logos, no watermark. Mood: consultant approval, RFQ, BOQ support, technical reliability."
+    },
+    "pprProductMarketing": {
+      "ratio": "4:3",
+      "prompt": "Premium photorealistic product marketing image for PP-R piping systems. Scene: clean arrangement of green PP-R fittings, elbows, tees, couplers, unions, threaded adaptors and pipe samples on a technical worktable inside a pipe factory. Background: softly visible production line and worker with safety helmet. Focus: product detail, clean surfaces, realistic plastic texture, technical credibility. Palette: brand deep green, off-white, warm orange accent, charcoal. No readable text, no logos, no watermark."
+    },
+    "upvcProductMarketing": {
+      "ratio": "4:3",
+      "prompt": "Premium photorealistic product marketing image for UPVC piping systems. Scene: organized stack of white or grey UPVC pipes with fittings and clean product samples in a Saudi pipe factory warehouse. Include subtle technical cues: measurement calipers, sample cut sections, clean catalog-like arrangement without readable text. Mood: drainage, durability, supply readiness, technical clarity. No readable text, no logos, no watermark."
+    },
+    "cpvcFittingsMarketing": {
+      "ratio": "4:3",
+      "prompt": "Premium photorealistic product marketing image for CPVC fittings SCH.80. Scene: organized technical product display with CPVC elbows, tees, couplings, unions, male adaptors, reducing bushes and end caps on a clean workbench. Include small blank tags or datasheet shapes with no readable text, factory background, controlled lighting. Mood: precision, part numbers, pack readiness, technical specification. No readable text, no logos, no watermark."
+    },
+    "hdpeProductMarketing": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic product marketing image for HDPE pipe systems. Scene: black HDPE pipe coils and straight pipe sections in a clean outdoor or warehouse factory area, organized for infrastructure supply, subtle orange accent coil in background. Mood: strength, infrastructure, irrigation, drainage, durability. Composition: wide, clean, realistic, executive-grade. No readable text, no logos, no watermark."
+    },
+    "rfqDashboard": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic executive visual of an RFQ and BOQ workflow for a Saudi pipe manufacturing company. Scene: clean desktop screen showing abstract dashboard cards, upload area, pipeline stages and charts, with pipe samples and factory background. The UI must have no readable text, only abstract shapes and realistic dashboard structure. Mood: measurable sales process, technical inquiry, fast response. Palette: off-white, deep logo green, warm orange accent, charcoal. No logos, no watermark, no readable text."
+    },
+    "crmKpiDashboard": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic CRM KPI dashboard visual for B2B industrial marketing. Scene: boardroom screen with abstract CRM pipeline, RFQ count, BOQ count, conversion chart, lead source panels, factory and pipe samples visible subtly. No readable text, only clean UI blocks and chart shapes. Mood: executive control, measurable marketing, sales alignment. Palette: off-white, deep logo green, warm orange accent, charcoal. No logos, no watermark."
+    },
+    "linkedinB2BContent": {
+      "ratio": "4:5",
+      "prompt": "Premium photorealistic LinkedIn B2B content planning visual for a Saudi pipe manufacturing company. Scene: marketing desk with factory photos, pipe samples, technical sheets without readable text, laptop showing abstract social content grid, factory production line visible through glass. Mood: industrial content system, engineering confidence, professional communication. Palette inspired by the I-TOP logo. No readable text, no logos, no watermark."
+    },
+    "technicalLibrary": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic technical library visual for pipe manufacturing. Scene: organized digital and physical technical library with blank catalog covers, pipe samples, certification folders, product datasheets without readable text, clean engineering table. Mood: approvals, specifications, documentation, consultant-ready. Palette: off-white, deep logo green, warm orange accent, charcoal. No readable text, no logos, no watermark."
+    },
+    "marketingDepartment": {
+      "ratio": "16:9",
+      "prompt": "Premium photorealistic executive visual for a lean marketing department in a Saudi industrial manufacturing company. Scene: small professional team reviewing factory visuals, product samples, CRM dashboard shapes and content calendar on a boardroom table. Background: clean factory context, pipe products, technical folders. Mood: leadership, execution, weekly reporting, alignment with sales. No readable text, no logos, no watermark."
+    }
+  }
 }
