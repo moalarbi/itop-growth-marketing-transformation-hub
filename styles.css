@@ -75,10 +75,6 @@ img { max-width: 100%; display: block; }
   width: min(980px, 100%);
   margin-inline: auto;
 }
-.hero-logo {
-  width: min(252px, 58vw);
-  margin: 0 auto 22px;
-}
 .hero-copy h1 {
   margin: 0 0 10px;
   font-size: clamp(2.4rem, 5vw, 5.8rem);
