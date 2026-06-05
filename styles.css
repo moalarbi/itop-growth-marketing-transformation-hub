@@ -39,13 +39,6 @@ img { max-width: 100%; display: block; }
   backdrop-filter: blur(16px);
 }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .01em; }
-.brand-mark {
-  width: 28px;
-  height: 28px;
-  border: 7px solid var(--green);
-  border-inline-start-color: var(--orange);
-  border-radius: 50%;
-}
 .top-nav, .hero-actions, .page-nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .top-nav a, .back-link, .ghost-button, .primary-button, .open-button, .page-nav a {
   min-height: 42px;
