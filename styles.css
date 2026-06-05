@@ -43,11 +43,6 @@ img { max-width: 100%; display: block; }
   width: clamp(112px, 13vw, 154px);
   height: auto;
 }
-.brand-text {
-  color: var(--green);
-  font-size: .96rem;
-  white-space: nowrap;
-}
 .top-nav, .hero-actions, .page-nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .top-nav a, .back-link, .ghost-button, .primary-button, .open-button, .page-nav a {
   min-height: 42px;
