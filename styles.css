@@ -68,10 +68,15 @@ img { max-width: 100%; display: block; }
 .hero {
   min-height: calc(100vh - 82px);
   display: grid;
-  grid-template-columns: minmax(0, .95fr) minmax(360px, 1.05fr);
-  align-items: center;
-  gap: clamp(28px, 6vw, 80px);
-  padding: clamp(32px, 5vw, 72px) clamp(20px, 5vw, 72px) 36px;
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: clamp(24px, 4vw, 44px);
+  padding: clamp(36px, 5vw, 72px) clamp(20px, 5vw, 72px) 36px;
+  text-align: center;
+}
+.hero-copy {
+  width: min(980px, 100%);
+  margin-inline: auto;
 }
 .hero-copy h1 {
   margin: 0 0 10px;
@@ -97,13 +102,15 @@ img { max-width: 100%; display: block; }
   font-size: .86rem;
 }
 .hero-visual {
-  margin: 0;
+  width: min(1080px, 100%);
+  margin: 0 auto;
   border: 1px solid rgba(18, 60, 53, .14);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--white);
 }
+.hero-actions { justify-content: center; }
 .strategic-statement, .dual-strip, .hub-section, .page-shell {
   width: min(1180px, calc(100% - 40px));
   margin-inline: auto;
