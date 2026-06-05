@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Factory Hub</title>
+  <desc id="desc">Premium minimal industrial strategy illustration for I-TOP Therm.</desc>
+  <rect width="1440" height="760" fill="#f6f1e8"/>
+  <path d="M0 0h1440v760H0z" fill="url(#grid)"/>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#d8d2c5" stroke-width="1" opacity=".45"/>
+    </pattern>
+  </defs>
+  <path d="M40 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M120 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M200 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M280 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M360 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M440 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M520 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M600 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M680 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M760 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M840 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M920 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1000 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1080 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1160 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1240 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1320 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/><path d="M1400 40v680" stroke="#d8d2c5" stroke-width="1" opacity=".42"/>
+  <path d="M70 690C230 615 360 615 510 690S800 765 1360 690" fill="none" stroke="#143c35" stroke-width="8" stroke-linecap="round" opacity=".23"/>
+  <path d="M145 540c210-120 320-120 500 0s330 120 520 0" fill="none" stroke="#143c35" stroke-width="18" stroke-linecap="round" opacity=".16"/>
+       <path d="M145 540c210-120 320-120 500 0s330 120 520 0" fill="none" stroke="#143c35" stroke-width="5" stroke-linecap="round"/>
+       <path d="M260 220h250v180h-250z" fill="#f8f3ea" stroke="#143c35" stroke-width="4"/>
+       <path d="M310 220v-75l55 75v-100l70 100" fill="none" stroke="#143c35" stroke-width="4"/>
+       <path d="M610 170h350v230h-350z" fill="#f8f3ea" stroke="#143c35" stroke-width="4"/>
+       <path d="M650 340h270M650 300h210M650 260h240" stroke="#143c35" stroke-width="8" stroke-linecap="round" opacity=".35"/>
+       <path d="M680 340v-90M770 340v-135M860 340v-60" stroke="#c8753e" stroke-width="14" stroke-linecap="round"/>
+       <path d="M210 610h360M760 610h380" stroke="#c8753e" stroke-width="10" stroke-linecap="round"/>
+       <text x="210" y="665" font-family="Arial, sans-serif" font-size="30" fill="#143c35">Distribution Growth</text>
+       <text x="760" y="665" font-family="Arial, sans-serif" font-size="30" fill="#143c35">Project Acquisition</text>
+  
+</svg>
