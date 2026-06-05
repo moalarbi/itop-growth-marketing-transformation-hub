@@ -11,7 +11,7 @@
 - `صور من المصنع/`: صور خطوط إنتاج، فنيين، معدات، منتجات، عبوات، مخزون، HDPE coils، UPVC pipes، PP-R fittings.
 - `البروفايلات/`: كتالوجات PP-R وUPVC وUPVC/CPVC fittings.
 - الشعار الرسمي: كلمة I-TOP بالأخضر الداكن مع دائرة برتقالية/ذهبية ولمسة أخضر فاتح، وأسفلها `THERM INDUSTRY CO.` والنص العربي.
-- أصل الشعار داخل المشروع: `assets/logo-itop.svg`.
+- عند توفر أصل الشعار كملف فعلي، يحفظ داخل المشروع في `assets/logo-itop-original.png` أو `assets/logo-itop-original.svg`.
 
 ملاحظات مستخلصة من الصور:
 

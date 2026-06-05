@@ -39,14 +39,12 @@ img { max-width: 100%; display: block; }
   backdrop-filter: blur(16px);
 }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; letter-spacing: .01em; }
-.brand-logo {
-  width: clamp(118px, 14vw, 166px);
-  height: auto;
-}
-.brand-text {
-  color: var(--green);
-  font-size: .96rem;
-  white-space: nowrap;
+.brand-mark {
+  width: 28px;
+  height: 28px;
+  border: 7px solid var(--green);
+  border-inline-start-color: var(--orange);
+  border-radius: 50%;
 }
 .top-nav, .hero-actions, .page-nav { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .top-nav a, .back-link, .ghost-button, .primary-button, .open-button, .page-nav a {
@@ -79,10 +77,6 @@ img { max-width: 100%; display: block; }
 .hero-copy {
   width: min(980px, 100%);
   margin-inline: auto;
-}
-.hero-logo {
-  width: min(260px, 58vw);
-  margin: 0 auto 22px;
 }
 .hero-copy h1 {
   margin: 0 0 10px;
