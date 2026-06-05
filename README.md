@@ -10,7 +10,7 @@
 
 تمت إضافة ملف `ITOP_AI_VISUAL_SYSTEM.md` كدليل تشغيل لتوليد صور AI متوافقة مع صور المصنع، الكتالوجات، والشعار الرسمي.
 
-عند توفر ملف الشعار الأصلي كملف فعلي، احفظه داخل `assets/` باسم واضح مثل `logo-itop-original.png` أو `logo-itop-original.svg`.
+الشعار الأصلي محفوظ داخل `assets/logo-itop-original.png` ويستخدم في الهيدر والهيرو الرئيسي.
 
 كما يحتوي `assets/image-prompts.json` على مكتبة prompts عملية قابلة للاستخدام للـ hero، المنتجات، RFQ، CRM، LinkedIn، التوزيع، والمشاريع.
 
@@ -50,6 +50,7 @@ http://localhost:8080
   README.md
   ITOP_AI_VISUAL_SYSTEM.md
   assets/
+    logo-itop-original.png
     image-prompts.json
     svg/
       hero-itop-factory.svg
