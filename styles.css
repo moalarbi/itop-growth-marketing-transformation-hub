@@ -107,6 +107,11 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--shadow);
   background: var(--white);
 }
+.hero-visual img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 .hero-actions { justify-content: center; }
 .strategic-statement, .dual-strip, .hub-section, .page-shell {
   width: min(1180px, calc(100% - 40px));
@@ -182,7 +187,14 @@ img { max-width: 100%; display: block; }
   line-height: .9;
   font-weight: 800;
 }
-.page-rail img { margin-top: 18px; border-radius: 8px; border: 1px solid rgba(18, 60, 53, .12); }
+.page-rail img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-top: 18px;
+  border-radius: 8px;
+  border: 1px solid rgba(18, 60, 53, .12);
+}
 .breadcrumb { display: flex; gap: 10px; color: var(--muted); font-weight: 600; }
 .breadcrumb a { color: var(--green); }
 .inner-hero {

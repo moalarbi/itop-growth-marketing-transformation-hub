@@ -52,6 +52,11 @@ http://localhost:8080
   assets/
     logo-itop-original.png
     image-prompts.json
+    images/
+      hero-itop-factory.webp
+      01-executive-case.webp
+      ...
+      15-executive-recommendation.webp
     svg/
       hero-itop-factory.svg
       01-executive-case.svg
