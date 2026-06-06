@@ -51,7 +51,7 @@ img { max-width: 100%; display: block; }
   justify-content: center;
   padding: 10px 16px;
   border: 1px solid rgba(18, 60, 53, .18);
-  border-radius: 8px;
+  border-radius: 0;
   font-weight: 600;
   transition: transform .22s ease, border-color .22s ease, background .22s ease, color .22s ease;
 }
@@ -102,7 +102,7 @@ img { max-width: 100%; display: block; }
   width: min(1080px, 100%);
   margin: 0 auto;
   border: 1px solid rgba(18, 60, 53, .14);
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--white);
@@ -131,7 +131,7 @@ img { max-width: 100%; display: block; }
 }
 .dual-strip div, .hub-card, .mini-card, .content-section, .actions-box, .kpi-box, .closing-note, .benchmark-panel {
   border: 1px solid rgba(18, 60, 53, .14);
-  border-radius: 8px;
+  border-radius: 0;
   background: rgba(255, 253, 248, .72);
 }
 .dual-strip div { padding: 28px; }
@@ -176,7 +176,7 @@ img { max-width: 100%; display: block; }
   top: 110px;
   height: fit-content;
   border: 1px solid rgba(18, 60, 53, .14);
-  border-radius: 8px;
+  border-radius: 0;
   background: rgba(255, 253, 248, .78);
   padding: 20px;
 }
@@ -192,7 +192,7 @@ img { max-width: 100%; display: block; }
   aspect-ratio: 16 / 9;
   object-fit: cover;
   margin-top: 18px;
-  border-radius: 8px;
+  border-radius: 0;
   border: 1px solid rgba(18, 60, 53, .12);
 }
 .breadcrumb { display: flex; gap: 10px; color: var(--muted); font-weight: 600; }
@@ -201,7 +201,7 @@ img { max-width: 100%; display: block; }
   margin: 22px 0;
   padding: clamp(28px, 5vw, 58px);
   border: 1px solid rgba(18, 60, 53, .14);
-  border-radius: 8px;
+  border-radius: 0;
   background: linear-gradient(135deg, rgba(255,253,248,.95), rgba(246,241,232,.78));
 }
 .inner-hero h1 {
@@ -237,7 +237,7 @@ img { max-width: 100%; display: block; }
 .kpi-grid { display: grid; gap: 12px; }
 .kpi {
   border: 1px solid rgba(18, 60, 53, .12);
-  border-radius: 8px;
+  border-radius: 0;
   padding: 14px;
   background: rgba(246, 241, 232, .55);
 }
@@ -260,7 +260,7 @@ img { max-width: 100%; display: block; }
 .competitor-links a {
   padding: 11px 12px;
   border: 1px solid rgba(18, 60, 53, .14);
-  border-radius: 8px;
+  border-radius: 0;
   color: var(--green);
   font-weight: 700;
   background: rgba(246, 241, 232, .55);
