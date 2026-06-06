@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Regional export growth</title>
+  <desc id="desc">Abstract globe and regional network illustration.</desc>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#d8d2c5" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f6f1e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="#f6f1e8"/>
+  <rect width="720" height="480" fill="url(#grid)"/>
+  <circle cx="604" cy="88" r="30" fill="#c8753e" opacity=".9"/>
+  <path d="M70 410C230 334 374 334 536 410S800 486 650 410" fill="none" stroke="#123c35" stroke-width="5" stroke-linecap="round" opacity=".2"/>
+  <circle cx="350" cy="240" r="132" fill="url(#glow)" stroke="#123c35" stroke-width="6"/>
+  <ellipse cx="350" cy="240" rx="62" ry="132" fill="none" stroke="#123c35" stroke-width="5" opacity=".55"/>
+  <ellipse cx="350" cy="240" rx="132" ry="52" fill="none" stroke="#123c35" stroke-width="5" opacity=".55"/>
+  <path d="M218 240h264M350 108v264" stroke="#123c35" stroke-width="4" opacity=".28"/>
+  <circle cx="350" cy="240" r="18" fill="#c8753e"/>
+  <circle cx="214" cy="154" r="18" fill="#123c35"/>
+  <circle cx="506" cy="176" r="18" fill="#123c35"/>
+  <circle cx="470" cy="348" r="18" fill="#c8753e"/>
+  <circle cx="170" cy="324" r="18" fill="#c8753e"/>
+  <path d="M350 240 214 154M350 240 506 176M350 240 470 348M350 240 170 324" stroke="#c8753e" stroke-width="6" stroke-linecap="round" opacity=".72"/>
+  <path d="M506 176h88M470 348h92M170 324H92M214 154H108" stroke="#123c35" stroke-width="6" stroke-linecap="round"/>
+</svg>
