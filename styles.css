@@ -158,7 +158,7 @@ img { max-width: 100%; display: block; }
 .card-number { color: var(--green); font-weight: 800; font-size: 1.8rem; line-height: 1; }
 .card-copy h3 { margin: 6px 0 8px; color: var(--green); font-size: 1.35rem; line-height: 1.35; }
 .card-copy p:not(.card-en) { color: var(--muted); margin: 0 0 18px; }
-.open-button { margin-top: auto; }
+.open-button { margin-top: auto; align-self: center; }
 .site-footer {
   padding: 28px;
   text-align: center;
@@ -276,8 +276,9 @@ body.is-leaving { opacity: .45; transition: opacity .18s ease; }
   .mini-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 720px) {
-  .site-header { position: relative; align-items: flex-start; flex-direction: column; }
-  .top-nav { width: 100%; }
+  .site-header { position: relative; align-items: center; flex-direction: column; }
+  .brand { margin-inline: auto; }
+  .top-nav { width: 100%; justify-content: center; }
   .top-nav a, .back-link, .primary-button, .ghost-button, .page-nav a { width: 100%; }
   .dual-strip, .hub-grid, .actions-kpis, .benchmark-panel { grid-template-columns: 1fr; }
   .page-rail { grid-template-columns: 1fr; }
