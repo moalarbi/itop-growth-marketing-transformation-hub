@@ -94,8 +94,8 @@ img { max-width: 100%; display: block; }
 .kicker, .section-heading p, .card-en, .closing-note span, .page-rail p {
   color: var(--orange);
   font-weight: 700;
-  letter-spacing: .04em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
   font-size: .86rem;
 }
 .hero-visual {
